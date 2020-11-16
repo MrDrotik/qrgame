@@ -1,0 +1,23 @@
+{
+  "name": "qrgame",
+  "version": "1.0.0",
+  "description": "game whose source code is in qr code",
+  "private": true,
+  "scripts": {
+    "prod": "webpack --mode production --config webpack.common.js",
+    "dev": "webpack --mode development --config webpack.dev.js"
+  },
+  "author": "Maksym Kovalenko <maksim.kovalenko1@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-inline-source-plugin": "^1.0.0-beta.2",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-merge": "^5.4.0",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7"
+  }
+}
